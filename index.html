@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Taper les tous !</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jeu.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header id="bandeau">
+        <h1 id="nameJeu">Tapez les tous !</h1>
+        <p id="scoreBefore">Score précédent : <span>0</span></p>
+    </header>
+
+    <div class="playBoard">
+        <div id="score">Votre score : <span>0</span></div>
+        <div id="countdown"></div>
+    </div>
+
+    <div id="zoneJeu">
+        <div id="start">Lancer le jeu</div>
+    </div>
+
+
+    <footer id="infos">
+        <div class="container">
+            <p>Jeu réalisée à partir de la base Tutoriel : <i>Créer un jeu avec jQuery</i> sur <a href="https://www.grafikart.fr/tutoriels/jquery/jeu-252">Grafikart</a></p>
+            <p>Prise en main et ajustements par VBlank <a href="https://github.com/VBlankSB/taperlestous">Fork me on Github</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
