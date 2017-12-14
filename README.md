@@ -39,7 +39,7 @@ Enregitrement des scores en **sessionStorage**.
 
 ## Tester le jeu
 
-Jeu : [Taper les tous !](https://vblanksb.github.io/taperLesTous/)
+Jeu : [Taper les tous !](https://valerieblanchard.github.io/taperLesTous/)
 
 ## Liens utiles
 
